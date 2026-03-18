@@ -97,7 +97,7 @@ export async function signInAction(
     await signIn("credentials", {
       email: parsedData.data.email,
       password: parsedData.data.password,
-      redirect: false,
+      redirectTo: "/dashboard",
     });
   } catch (error) {
     if (error instanceof AuthError) {
@@ -109,7 +109,7 @@ export async function signInAction(
     throw error;
   }
 
-  redirect("/dashboard");
+  return {};
 }
 
 export async function signUpAction(
