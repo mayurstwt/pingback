@@ -8,8 +8,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export default function ClaimCheckoutPage() {
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-3xl items-center px-6 py-10 sm:px-8">
-      <Card className="glass w-full border-white/10">
+    <main className="mx-auto flex min-h-screen w-full max-w-90rem items-center px-6 py-10 sm:px-8">
+      <div className="mx-auto w-full max-w-3xl">
+        <Card className="glass w-full border-white/10">
         <CardHeader>
           <Button asChild variant="ghost" className="-ml-4 w-fit">
             <Link href="/pricing">

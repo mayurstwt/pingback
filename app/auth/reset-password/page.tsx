@@ -15,7 +15,7 @@ export default async function ResetPasswordPage({ searchParams }: ResetPasswordP
   const showResetForm = Boolean(email && token);
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-4xl items-center px-6 py-10 sm:px-8">
+    <main className="mx-auto flex min-h-screen w-full max-w-90rem items-center px-6 py-10 sm:px-8">
       <section className="w-full space-y-8">
         <div className="space-y-3">
           <p className="text-sm uppercase tracking-[0.22em] text-[var(--primary)]">Password reset</p>

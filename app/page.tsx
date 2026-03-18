@@ -84,7 +84,7 @@ const steps = [
 export default async function HomePage() {
   return (
     <main className="relative overflow-hidden">
-      <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 py-8 sm:px-8 lg:px-10">
+      <div className="mx-auto flex min-h-screen w-full max-w-90rem flex-col px-6 py-8 sm:px-8 lg:px-10">
         <MarketingNavbar links={navLinks} />
 
         <section className="grid flex-1 items-center gap-14 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">

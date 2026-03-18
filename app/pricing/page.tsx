@@ -26,7 +26,7 @@ const planItems = [
 
 export default function PricingPage() {
   return (
-    <main className="mx-auto min-h-screen w-full max-w-5xl px-6 py-10 sm:px-8">
+    <main className="mx-auto min-h-screen w-full max-w-90rem px-6 py-10 sm:px-8">
       <MarketingNavbar links={navLinks} />
 
       <section className="grid gap-10 py-12 lg:grid-cols-[1fr_420px]">

@@ -19,7 +19,7 @@ export async function MarketingNavbar({ links }: MarketingNavbarProps) {
 
   return (
     <header className="sticky top-0 z-30">
-      <div className="glass mx-auto flex w-full max-w-6xl items-center justify-between gap-4 rounded-[1.75rem] border border-white/10 px-4 py-4 shadow-lg shadow-black/20 sm:px-6">
+      <div className="glass mx-auto flex w-full max-w-90rem items-center justify-between gap-4 rounded-[1.75rem] border border-white/10 px-4 py-4 shadow-lg shadow-black/20 sm:px-6">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5">
             <Clock3 className="h-5 w-5 text-[var(--primary)]" />
@@ -55,7 +55,7 @@ export async function MarketingNavbar({ links }: MarketingNavbarProps) {
         </div>
       </div>
 
-      <nav className="mx-auto mt-3 flex w-full max-w-6xl flex-wrap gap-2 px-1 lg:hidden">
+      <nav className="mx-auto mt-3 flex w-full max-w-90rem flex-wrap gap-2 px-1 lg:hidden">
         {links.map((link) => (
           <Link
             key={link.href}

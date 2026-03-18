@@ -21,7 +21,7 @@ export default async function DashboardPage() {
   const heartbeats = await getHeartbeatsByEmail(email);
 
   return (
-    <main className="mx-auto min-h-screen w-full max-w-6xl px-6 py-10 sm:px-8">
+    <main className="mx-auto min-h-screen w-full max-w-90rem px-6 py-10 sm:px-8">
       <section className="grid gap-8 lg:grid-cols-[340px_1fr]">
         <Card className="glass h-fit border-white/10">
           <CardHeader>

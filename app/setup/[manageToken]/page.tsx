@@ -29,7 +29,7 @@ export default async function SetupPage({ params }: SetupPageProps) {
   const pingUrl = getPingUrl(heartbeat.ping_key);
 
   return (
-    <main className="mx-auto min-h-screen w-full max-w-5xl px-6 py-10 sm:px-8">
+    <main className="mx-auto min-h-screen w-full max-w-90rem px-6 py-10 sm:px-8">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <Button asChild variant="ghost">
           <Link href="/dashboard">
